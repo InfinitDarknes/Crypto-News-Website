@@ -1,0 +1,78 @@
+@font-face{
+    font-family: yekan;
+    src: url(../../fonts/B_Yekan/Yekan.ttf) format(truetype);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: yekan;
+    color: #31333A;
+    transition: color .5s , font-size .2s;
+}
+
+li,a,.logo,button{
+    cursor: pointer;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+input:focus{
+    outline: 0;
+}
+
+.color-muted{
+    color: #888;
+}
+
+.color-yellow{
+    color: #f9aa00;
+}
+
+a:hover{
+    color: #F9AA00 !important;
+}
+
+.show{
+    display: block !important;
+}
+
+.relative{
+    position: relative;
+}
+
+.img-sm{
+    width: 100px;
+    height: 100px;
+}
+
+.color-white{
+    color: #ffffff;
+}
+
+.pd-0{
+    padding: 0;
+}
+
+.mg-0x{
+    margin: 0 !important;
+}
+
+.mb-30x{
+    margin-bottom: 30px;
+}
+
+.mb-50x{
+    margin-bottom: 50px;
+}
+
+.w-100{
+    width: 100%;
+}
